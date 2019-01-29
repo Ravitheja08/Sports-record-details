@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>VCE</title>
+<link rel="stylesheet" type="text/css" href="home_style.css">
+<script>
+function validateForm() {
+  var x1 = document.forms["myForm"]["first_player_input"].value;
+  var x2 = document.forms["myForm"]["first_player_inputroll"].value;
+  var x3 = document.forms["myForm"]["second_player_input"].value;
+  var x4 = document.forms["myForm"]["second_player_inputroll"].value;
+  var x5 = document.forms["myForm"]["third_player_input"].value;
+  var x6 = document.forms["myForm"]["third_player_inputroll"].value;
+  var x7 = document.forms["myForm"]["fourth_player_input"].value;
+  var x8 = document.forms["myForm"]["fourth_player_inputroll"].value;
+  
+  
+  if (x1 == "" || x2==""||x3==""||x4 == "" || x5==""||x6==""||x7 == "" || x8=="") {
+    alert("Please Fill all the Mandatory Fields");
+    return false;
+  }
+}
+
+</script>
+
+</head>
+<body>
+<div class="header">
+ <h2>Vasavi College Of Engineering</h2>
+ 
+</div>
+<div class="topnav">
+</div>
+<center>
+
+		<form action="List.html" method="post"
+			onsubmit="return validateForm()" autocomplete="on" name="myForm">
+			<fieldset>
+				<legend>
+					<b>Student Registration Form</b>
+				</legend>
+				<table cellspacing="15" cellpadding="5">
+					<tr>
+						<td label for="team_name">Team Name:</td>
+						<td><input type="text" name="team_name_input"
+							placeholder=" Enter team name"></td>
+					</tr>
+					<tr>
+						<td label for="first_player">Name:</td>
+						<td><input type="text" name="first_player_input"
+							placeholder=" Enter first player name"></td>
+					</tr>
+					<tr>
+						<td label for="first_playerrno">Roll No:</td>
+						<td><input type="text" name="first_player_inputroll"
+							placeholder=" Enter first player roll no"></td>
+					</tr>
+					<tr>
+						<td label for="second_player">Name:</td>
+						<td><input type="text" name="second_player_input"
+							placeholder=" Enter second player roll no"></td>
+					</tr>
+					<tr>
+						<td label for="second_playerrno">Roll No:</td>
+						<td><input type="text" name="second_player_inputroll"
+							placeholder=" Enter second player roll no"></td>
+					</tr>
+					<tr>
+						<td label for="third_player">Name:</td>
+						<td><input type="text" name="third_player_input"
+							placeholder=" Enter third player name"></td>
+					</tr>
+					<tr>
+						<td label for="third_playerrno">Roll No:</td>
+						<td><input type="text" name="third_player_inputroll"
+							placeholder=" Enter third player roll no"></td>
+					</tr>
+					<tr>
+						<td label for="fourth_player">Name:</td>
+						<td><input type="text" name="fourth_player_input"
+							placeholder=" Enter fourth player name"></td>
+					</tr>
+					<tr>
+						<td label for="fourth_playerrno">Roll No:</td>
+						<td><input type="text" name="fourth_player_inputroll"
+							placeholder=" Enter fourth player roll no"></td>
+					</tr>
+				
+					<tr>
+						<td><input type="reset" value="Reset" /></td>
+						<td><input type="submit" value="Submit" /></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+
+	</center>
+
+</body>
+</html>

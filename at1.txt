@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>VCE</title>
+<link rel="stylesheet" type="text/css" href="home_style.css">
+<script>
+
+</script>
+
+</head>
+<body>
+<div class="header">
+ <h2>Vasavi College Of Engineering</h2>
+ 
+</div>
+<div class="topnav">
+<a href="at2.html">Cricket</a>
+<a href="atc.html>Carrom</a>
+<a href="atch.html">Chess</a>
+<a href="at3.html">Volley Ball</a>
+</div>
+<center>
+<form action="List.html" method="post"
+			onsubmit="return validateForm()" autocomplete="on" name="myForm">
+			<fieldset>
+				<legend>
+					<b>Student Registration Form</b>
+				</legend>
+				<table cellspacing="15" cellpadding="5">
+					<tr>
+						<td label for="team_name">Team Name:</td>
+						<td><input type="text" name="team_name_input"
+							placeholder=" Enter team name"></td>
+					</tr>
+					<tr><td><b>First Player Details</b></td></tr>
+					<tr>
+						<td label for="first_player">Name:</td>
+						<td><input type="text" name="first_player_input"
+							placeholder=" Enter first player name"></td>
+					</tr>
+					<tr>
+						<td label for="first_playerrno">Roll No:</td>
+						<td><input type="text" name="first_player_inputroll"
+							placeholder=" Enter first player roll no"></td>
+					</tr>
+					<tr><td><b>Second Player Details</b></td></tr>
+					<tr>
+						<td label for="second_player">Name:</td>
+						<td><input type="text" name="second_player_input"
+							placeholder=" Enter second player roll no"></td>
+					</tr>
+					<tr>
+						<td label for="second_playerrno">Roll No:</td>
+						<td><input type="text" name="second_player_inputroll"
+							placeholder=" Enter second player roll no"></td>
+					</tr>
+					<tr><td><b>Third Player Details</b></td></tr>
+					<tr>
+						<td label for="third_player">Name:</td>
+						<td><input type="text" name="third_player_input"
+							placeholder=" Enter third player name"></td>
+					</tr>
+					<tr>
+						<td label for="third_playerrno">Roll No:</td>
+						<td><input type="text" name="third_player_inputroll"
+							placeholder=" Enter third player roll no"></td>
+					</tr>
+					<tr><td><b>Fourth Player Details</b></td></tr>
+					<tr>
+						<td label for="fourth_player">Name:</td>
+						<td><input type="text" name="fourth_player_input"
+							placeholder=" Enter fourth player name"></td>
+					</tr>
+					<tr>
+						<td label for="fourth_playerrno">Roll No:</td>
+						<td><input type="text" name="fourth_player_inputroll"
+							placeholder=" Enter fourth player roll no"></td>
+					</tr>
+					<tr><td><b>Fifth Player Details</b></td></tr>
+					<tr>
+						<td label for="fifth_player">Name:</td>
+						<td><input type="text" name="fifth_player_input"
+							placeholder=" Enter fifth player name"></td>
+					</tr>
+					<tr>
+						<td label for="fifth_playerrno">Roll No:</td>
+						<td><input type="text" name="fifth_player_inputroll"
+							placeholder=" Enter fifth player roll no"></td>
+					</tr>
+					<tr><td><b>Sixth Player Details</b></td></tr>
+					<tr>
+						<td label for="sixth_player">Name:</td>
+						<td><input type="text" name="sixth_player_input"
+							placeholder=" Enter sixth player name"></td>
+					</tr>
+					<tr>
+						<td label for="sixth_playerrno">Roll No:</td>
+						<td><input type="text" name="sixth_player_inputroll"
+							placeholder=" Enter sixth player roll no"></td>
+					</tr>
+					<tr><td><b>Seventh Player Details</b></td></tr>
+					<tr>
+						<td label for="seventh_player">Name:</td>
+						<td><input type="text" name="seventh_player_input"
+							placeholder=" Enter seventh player name"></td>
+					</tr>
+					<tr>
+						<td label for="seventh_playerrno">Roll No:</td>
+						<td><input type="text" name="seventh_player_input"
+							placeholder=" Enter seventh player name"></td>
+					</tr>
+					<tr><td><b>Eighth Player Details</b></td></tr>
+					<tr>
+						<td label for="eighth_player">Name:</td>
+						<td><input type="text" name="eighth_player_input"
+							placeholder=" Enter eighth player name"></td>
+					</tr>
+					<tr>
+						<td label for="eighth_playerrno">Roll No:</td>
+						<td><input type="text" name="eighth_player_inputroll"
+							placeholder=" Enter eighth player roll no"></td>
+					</tr>
+					<tr><td><b>Ninth Player Details</b></td></tr>
+					<tr>
+						<td label for="ninth_player">Name:</td>
+						<td><input type="text" name="ninth_player_input"
+							placeholder=" Enter ninth player name"></td>
+					</tr>
+					<tr>
+						<td label for="ninth_playerrno">Roll No:</td>
+						<td><input type="text" name="ninth_player_inputroll"
+							placeholder=" Enter ninth player roll no"></td>
+					</tr>
+					<tr><td><b>Tenth Player Details</b></td></tr>
+					<tr>
+						<td label for="tenth_player">Name:</td>
+						<td><input type="text" name="tenth_player_input"
+							placeholder=" Enter tenth player name"></td>
+					</tr>
+					<tr>
+						<td label for="tenth_playerrno">Roll no:</td>
+						<td><input type="text" name="tenth_player_inputroll"
+							placeholder=" Enter tenth player roll no"></td>
+					</tr>
+					<tr><td><b>Eleventh Player Details</b></td></tr>
+					<tr>
+						<td label for="eleventh_player">Name:</td>
+						<td><input type="text" name="eleventh_player_input"
+							placeholder=" Enter eleventh player name"></td>
+					</tr>
+					<tr>
+						<td label for="eleventh_playerrno">Roll no:</td>
+						<td><input type="text" name="eleventh_player_inputroll"
+							placeholder=" Enter eleventh player roll no"></td>
+					</tr>
+
+					<tr>
+						<td><input type="reset" value="Reset" /></td>
+						<td><input type="submit" value="Submit" /></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+
+	</center>
+</body>
+</html>

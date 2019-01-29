@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title>home</title>
+</head>
+	<body>
+	<a href="chess.html">Team Registration</a>
+	<a href="at4.html">Score Board Updation</a>
+	<a href="at4.html">Result</a>
+	</body>
+</html>
